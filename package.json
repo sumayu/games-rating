@@ -1,23 +1,18 @@
 {
-  "name": "gamerating",
+  "name": "kb-backend-week-3-startkit-main",
   "version": "1.0.0",
-  "description": "you can rate games and play them",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DeFchanel/kb-backend-week-2-startkit-main.git"
-  },
-  "author": "DeF",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DeFchanel/kb-backend-week-2-startkit-main/issues"
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
   },
-  "homepage": "https://github.com/DeFchanel/kb-backend-week-2-startkit-main#readme",
   "devDependencies": {
     "nodemon": "^3.1.0"
   }
